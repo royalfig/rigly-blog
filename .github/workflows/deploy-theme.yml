@@ -14,4 +14,4 @@ jobs:
         uses: TryGhost/action-deploy-theme@v1
         with:
           api-url: https://rcorp-company-blog.ghost.io
-          api-key: 504b14e1a96995ad620a7bb995
+          api-key: 653950531590e30001ba2922:c68ec5b2c03dcf37c4e59426952bbf2655f7b34068292c7c95aeb7b8f0b5b0eb
