@@ -15764,6 +15764,7 @@
             await api.themes.upload({file: zipPath});
             console.log(`${zipPath} successfully uploaded.`); // eslint-disable-line no-console
         } catch (err) {
+            console.log(err)
             console.error(JSON.stringify(err, null, 2)); // eslint-disable-line no-console
             process.exit(1);
         }
